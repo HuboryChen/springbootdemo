@@ -1,0 +1,17 @@
+server:
+  port: 80
+  context-path: /springboot
+
+logging:
+  file: d:/example/mylog/log.log
+  level: debug
+
+debug: true
+
+name: 小胖
+age: 23
+content: "name:${name},age:${age}"
+
+person:
+  name : 张三
+  age: 24
